@@ -11,7 +11,10 @@ export default {
         shadowColor: "#040c16",
         whiteBg: "#ccd6f6",
         primary: "#0F3147",
-        secondary: "#C63B33"
+        secondary: "#C63B33",
+        yellow: "#F4C05F",
+        lightYellow: "#E9E2BC",
+        orange: "#E88431"
       },
       textColor: {
         whiteText: "#ccd6f6",

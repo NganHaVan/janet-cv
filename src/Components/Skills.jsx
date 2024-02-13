@@ -8,13 +8,19 @@ import ReactImg from "../assets/react.png";
 import AWS from "../assets/aws.png";
 import TailwindImg from "../assets/tailwind.png";
 import TypescriptImg from "../assets/typescript.png";
-import SQL from "../assets/SQL.png";
-import NoSQL from "../assets/noSQL.png";
+import Database from "../assets/database.png";
+import Docker from "../assets/docker.png";
+import Redux from "../assets/redux.png";
+import Vue from "../assets/Vue.png";
+import CICD from "../assets/CICD.png";
+import ExpressJS from "../assets/ExpressJS.png";
+import Jest from "../assets/Jest.png";
+
 export default function Skills() {
   return (
     <div
       name="skills"
-      className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-screen md:max-h-full text-gray-300"
+      className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full lg:h-screen md:max-h-full text-gray-300"
     >
       <div>
         <div>
@@ -63,16 +69,32 @@ export default function Skills() {
             <p className="my-4">ReactJS and React Native</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
+            <img className="w-20 mx-auto" src={Vue} alt="Vue Icon" />
+            <p className="my-4">VueJS</p>
+          </div>
+          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Node} alt="NodeJS Icon" />
             <p className="my-4">Node JS</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
-            <img className="w-20 mx-auto" src={SQL} alt="SQL Icon" />
-            <p className="my-4">SQL</p>
+            <img
+              className="w-20 mx-auto"
+              src={ExpressJS}
+              alt="ExpressJS Icon"
+            />
+            <p className="my-4">ExpressJS</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
-            <img className="w-20 mx-auto" src={NoSQL} alt="NoSQL Icon" />
-            <p className="my-4">NoSQL</p>
+            <img className="w-20 mx-auto" src={Database} alt="Database Icon" />
+            <p className="my-4">SQL and NoSQL</p>
+          </div>
+          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
+            <img className="w-20 mx-auto" src={Redux} alt="Redux Icon" />
+            <p className="my-4">Redux</p>
+          </div>
+          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
+            <img className="w-20 mx-auto" src={Docker} alt="Docker Icon" />
+            <p className="my-4">Docker</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Firebase} alt="Firebase Icon" />
@@ -81,6 +103,14 @@ export default function Skills() {
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={AWS} alt="AWS Icon" />
             <p className="my-4">AWS</p>
+          </div>
+          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
+            <img className="w-20 mx-auto" src={CICD} alt="CI/CD Icon" />
+            <p className="my-4">CI/CD pipeline</p>
+          </div>
+          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
+            <img className="w-20 mx-auto" src={Jest} alt="Jest Icon" />
+            <p className="my-4">Jest</p>
           </div>
         </div>
       </div>

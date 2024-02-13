@@ -10,7 +10,8 @@ const SocialMediaLinks = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-linkedIn">
           <a
             className="flex items-center justify-around w-full text-white"
-            href="/"
+            href="https://www.linkedin.com/in/janet-van/"
+            target="_blank"
           >
             LinkedIn
             <FaLinkedin size={30} />
@@ -20,7 +21,8 @@ const SocialMediaLinks = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-github">
           <a
             className="flex items-center justify-around w-full text-white"
-            href="/"
+            href="https://github.com/NganHaVan?tab=repositories"
+            target="_blank"
           >
             Github <FaGithub size={30} />
           </a>
@@ -29,7 +31,7 @@ const SocialMediaLinks = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-mail">
           <a
             className="flex items-center justify-around w-full text-white"
-            href="/"
+            href="mailto:vannunganha@gmail.com"
           >
             Email <MdMailOutline size={30} />
           </a>
@@ -38,7 +40,8 @@ const SocialMediaLinks = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-resume">
           <a
             className="flex items-center justify-around w-full text-white"
-            href="/"
+            href="./CV2024.pdf"
+            target="_blank"
           >
             Resume <BsPersonLinesFill size={30} />
           </a>

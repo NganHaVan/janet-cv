@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
-import { data } from "../data/data.js";
+import { data } from "../data/portfolioData.js";
 import { Element } from "react-scroll";
 
 const Work = () => {
@@ -33,13 +33,13 @@ const Work = () => {
                     {item.name}
                   </span>
                   <div className="pt-8 text-center ">
-                    { }
+                    {}
                     <a href={item.github} target="_blank">
                       <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">
                         Code
                       </button>
                     </a>
-                    { }
+                    {}
                     {item.live !== "" && (
                       <a href={item.live} target="_blank">
                         <button className="px-4 py-3 m-2 text-lg font-bold text-center text-gray-700 bg-white rounded-lg">

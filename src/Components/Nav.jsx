@@ -27,6 +27,11 @@ const Nav = () => {
               Skills
             </li>
           </Link>
+          <Link onClick={handleClick} spy smooth to="experience">
+            <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
+              Experience
+            </li>
+          </Link>
           <Link onClick={handleClick} spy smooth to="work">
             <li className="py-4 my-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">
               Work
@@ -43,7 +48,7 @@ const Nav = () => {
   );
   return (
     <nav>
-      <div className="fixed z-50 flex justify-between flex-1 w-full px-20 py-4 text-white h-10vh lg:py-5 bg-primary">
+      <div className="fixed z-50 flex justify-between flex-1 w-full px-10 py-4 text-white lg:px-20 h-10vh lg:py-5 bg-primary">
         <div className="flex items-center flex-1">
           <span className="text-3xl font-bold">JanetVan</span>
         </div>
@@ -63,6 +68,11 @@ const Nav = () => {
               <Link onClick={handleClick} spy smooth to="skills">
                 <li className="transition border-b-2 cursor-pointer hover:text-secondary border-primary hover:border-secondary">
                   Skills
+                </li>
+              </Link>
+              <Link onClick={handleClick} spy smooth to="experience">
+                <li className="transition border-b-2 cursor-pointer hover:text-secondary border-primary hover:border-secondary">
+                  Experience
                 </li>
               </Link>
               <Link onClick={handleClick} spy smooth to="work">
