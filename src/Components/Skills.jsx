@@ -13,8 +13,8 @@ import Docker from "../assets/docker.png";
 import Redux from "../assets/redux.png";
 import Vue from "../assets/Vue.png";
 import CICD from "../assets/CICD.png";
-import ExpressJS from "../assets/ExpressJS.png";
 import Jest from "../assets/Jest.png";
+import Kotlin from "../assets/Kotlin.png";
 
 export default function Skills() {
   return (
@@ -74,15 +74,11 @@ export default function Skills() {
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Node} alt="NodeJS Icon" />
-            <p className="my-4">Node JS</p>
+            <p className="my-4">NodeJS + ExpressJS</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
-            <img
-              className="w-20 mx-auto"
-              src={ExpressJS}
-              alt="ExpressJS Icon"
-            />
-            <p className="my-4">ExpressJS</p>
+            <img className="w-20 mx-auto" src={Kotlin} alt="Kotlin Icon" />
+            <p className="my-4">Kotlin</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Database} alt="Database Icon" />

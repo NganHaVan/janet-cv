@@ -1,6 +1,7 @@
 import ShoppingImg from "../assets/projects/shopping.jpeg";
 import ChargingImg from "../assets/projects/charging.jpeg";
 import CampsiteImg from "../assets/projects/campsite.png";
+import WorkoutImg from "../assets/projects/workout.png";
 
 export const data = [
   {
@@ -23,12 +24,12 @@ export const data = [
     image: CampsiteImg,
     github: "https://github.com/NganHaVan/travel-app-ui",
     live: "https://travel-app-ui.site/"
+  },
+  {
+    id: 4,
+    name: "Workout App (Kotlin)",
+    image: WorkoutImg,
+    github: "https://github.com/NganHaVan/workout-app-kotlin",
+    live: ""
   }
-  // {
-  //   id: 4,
-  //   name: "React JS Application",
-  //   image: RealEst,
-  //   github: "",
-  //   live: ""
-  // }
 ];

@@ -13,7 +13,12 @@ function ExpItem({ year, title, duration, details }) {
             {duration}
           </span>
         </p>
-        <p className="my-2 text-base font-normal ">{details}</p>
+        {details.split("\n").map((t, index) => (
+          <p key={index} className="my-2 text-base font-normal ">
+            {t}
+          </p>
+        ))}
+        {/* <p className="my-2 text-base font-normal ">{details}</p> */}
       </li>
     </ol>
   );
