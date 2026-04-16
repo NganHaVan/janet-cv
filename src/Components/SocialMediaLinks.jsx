@@ -40,7 +40,7 @@ const SocialMediaLinks = () => {
         <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[0px] duration-300 bg-resume">
           <a
             className="flex items-center justify-around w-full text-white"
-            href="./CV2024.pdf"
+            href="./CV2026.pdf"
             target="_blank"
           >
             Resume <BsPersonLinesFill size={30} />

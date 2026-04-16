@@ -9,27 +9,27 @@ export const data = [
     name: "Shopping app (Fullstack)",
     image: ShoppingImg,
     github: "https://github.com/NganHaVan/NodeSecondhandShopping",
-    live: "https://shopping-app-4rgr.onrender.com/"
+    live: "",
   },
   {
     id: 2,
     name: "Charging Booking system (Backend Only)",
     image: ChargingImg,
     github: "https://github.com/NganHaVan/charging_app",
-    live: ""
+    live: "",
   },
   {
     id: 3,
     name: "Travel UI App (UI Only)",
     image: CampsiteImg,
     github: "https://github.com/NganHaVan/travel-app-ui",
-    live: "https://travel-app-ui.site/"
+    live: "",
   },
   {
     id: 4,
     name: "Workout App (Kotlin)",
     image: WorkoutImg,
     github: "https://github.com/NganHaVan/workout-app-kotlin",
-    live: ""
-  }
+    live: "",
+  },
 ];

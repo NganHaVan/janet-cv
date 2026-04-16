@@ -6,12 +6,12 @@ import Javascript from "../assets/javascript.png";
 import Node from "../assets/node.png";
 import ReactImg from "../assets/react.png";
 import AWS from "../assets/aws.png";
-import TailwindImg from "../assets/tailwind.png";
+import K8s from "../assets/k8s.png";
 import TypescriptImg from "../assets/typescript.png";
 import Database from "../assets/database.png";
 import Docker from "../assets/docker.png";
 import Redux from "../assets/redux.png";
-import Vue from "../assets/Vue.png";
+import Kafka from "../assets/kafka.png";
 import CICD from "../assets/CICD.png";
 import Jest from "../assets/Jest.png";
 import Kotlin from "../assets/Kotlin.png";
@@ -41,12 +41,8 @@ export default function Skills() {
             <p className="my-4">CSS</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
-            <img
-              className="w-20 mx-auto"
-              src={TailwindImg}
-              alt="Tailwind Icon"
-            />
-            <p className="my-4">Tailwind</p>
+            <img className="w-20 mx-auto" src={K8s} alt="K8s Icon" />
+            <p className="my-4">Kubernetes</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Javascript} alt="JS Icon" />
@@ -68,9 +64,12 @@ export default function Skills() {
             />
             <p className="my-4">ReactJS and React Native</p>
           </div>
-          <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
-            <img className="w-20 mx-auto" src={Vue} alt="Vue Icon" />
-            <p className="my-4">VueJS</p>
+          <div
+            className="flex flex-col items-center justify-center duration-500 shadow-md      
+  shadow-shadowColor hover:scale-110"
+          >
+            <img className="w-20 object-contain" src={Kafka} alt="Kafka Icon" />
+            <p className="my-4">Kafka</p>
           </div>
           <div className="duration-500 shadow-md shadow-shadowColor hover:scale-110">
             <img className="w-20 mx-auto" src={Node} alt="NodeJS Icon" />
