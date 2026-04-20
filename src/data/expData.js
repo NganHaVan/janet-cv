@@ -1,7 +1,7 @@
 export const expData = [
   {
     year: 2018,
-    title: "Futurice (Frontend Developer)",
+    title: "Futurice (Fullstack Developer trainee)",
     duration: "0.5 year",
     details:
       "Worked with an Agile team to design and develop a social network app that helps people to connect.\nBuild the whole system including both backend and frontend.\nTech used: ReactJS, React Native, NodeJS, ExpressJS.",

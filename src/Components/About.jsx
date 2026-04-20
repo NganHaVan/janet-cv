@@ -18,18 +18,19 @@ const About = () => {
           </div>
           <div>
             <p className="my-4">
-              An energetic and dedicated developer who has several years of
-              experience in both backend and frontend development.
+              Senior Full-Stack Engineer with 8 years of experience designing
+              and scaling high-performance web applications and microservices
             </p>
             <p className="my-4">
-              So far having been involved in various projects built-in cutting-
-              edge technologies.
+              Proficient in Java, Spring Boot, React, and Next.js, with a strong
+              track record of integrating complex third-party APIs like Stripe
+              and building resilient cloud infrastructure using Kubernetes,
+              Kafka, and CI/CD pipelines.
             </p>
             <p className="my-4">A master of React Native and ReactJS.</p>
             <p className="my-4">
-              Being able to adapt quickly to new techs and usually makes the
-              client satisfied with the speed and quality of her service
-              delivery.
+              Passionate about solving complex architectural challenges and
+              delivering reliable, user-focused products.
             </p>
           </div>
         </div>
